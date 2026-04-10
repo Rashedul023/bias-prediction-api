@@ -1,3 +1,32 @@
-venv/ 
-__pycache__/ 
+# Virtual Environment
+venv/
+env/
+.venv/
 "venv/" 
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# OS
+Thumbs.db
+
+# Data files (keep sample, exclude large)
+data/*.csv
+!data/sample.csv
